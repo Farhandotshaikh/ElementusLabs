@@ -9921,6 +9921,48 @@ video {
   }
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes scale-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .E-animate-none {
   animation: none;
 }
@@ -9939,6 +9981,60 @@ video {
 
 .E-animate-bounce {
   animation: bounce 1s infinite;
+}
+
+
+.E-animate-fade-in {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.E-animate-slide-up {
+  animation: slide-up 0.6s ease-out;
+}
+
+.E-animate-scale-pop {
+  animation: scale-pop 0.5s ease-out;
+}
+
+.E-animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+
+.hover\:animate-none:hover {
+  animation: none;
+}
+
+.hover\:animate-spin:hover {
+  animation: spin 1s linear infinite;
+}
+
+.hover\:animate-ping:hover {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.hover\:animate-pulse:hover {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:animate-bounce:hover {
+  animation: bounce 1s infinite;
+}
+
+.hover\:animate-fade-in:hover {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.hover\:animate-slide-up:hover {
+  animation: slide-up 0.6s ease-out;
+}
+
+.hover\:animate-scale-pop:hover {
+  animation: scale-pop 0.5s ease-out;
+}
+
+.hover\:animate-shake:hover {
+  animation: shake 0.4s ease-in-out;
 }
 
 .E-cursor-auto {
@@ -39187,6 +39283,22 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .sm\:animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .sm\:animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+  
+  .sm\:animate-scale-pop {
+    animation: scale-pop 0.5s ease-out;
+  }
+  
+  .sm\:animate-shake {
+    animation: shake 0.4s ease-in-out;
+  }
+
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -68419,6 +68531,22 @@ video {
 
   .md\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .md\:animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .md\:animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+  
+  .md\:animate-scale-pop {
+    animation: scale-pop 0.5s ease-out;
+  }
+  
+  .md\:animate-shake {
+    animation: shake 0.4s ease-in-out;
   }
 
   .md\:cursor-auto {
@@ -97655,6 +97783,22 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .lg\:animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .lg\:animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+  
+  .lg\:animate-scale-pop {
+    animation: scale-pop 0.5s ease-out;
+  }
+  
+  .lg\:animate-shake {
+    animation: shake 0.4s ease-in-out;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -126889,6 +127033,22 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .xl\:animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .xl\:animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+  
+  .xl\:animate-scale-pop {
+    animation: scale-pop 0.5s ease-out;
+  }
+  
+  .xl\:animate-shake {
+    animation: shake 0.4s ease-in-out;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -156121,6 +156281,22 @@ video {
 
   .\32xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .\32xl\:animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+  
+  .\32xl\:animate-scale-pop {
+    animation: scale-pop 0.5s ease-out;
+  }
+  
+  .\32xl\:animate-shake {
+    animation: shake 0.4s ease-in-out;
   }
 
   .\32xl\:cursor-auto {
