@@ -1,17 +1,17 @@
 
 
-# Contributing to Blend.CSS
+# Contributing to Elementus UI
 
-Thank you for considering contributing to Blend.CSS! We welcome contributions from the community to help improve and enhance the framework.
+Thank you for considering contributing to Elementus UI! We welcome contributions from the community to help improve and enhance the framework.
 
 ## How to Contribute
 
-To contribute to Blend.CSS, follow these steps:
+To contribute to Elementus UI, follow these steps:
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/Farhandotshaikh/Blend.git
+   git clone https://github.com/Farhandotshaikh/ElementusUI.git
    ```
 3. Create a new branch for your feature or bug fix.
    ```bash
@@ -34,7 +34,7 @@ To contribute to Blend.CSS, follow these steps:
 
 ## Coding Guidelines
 
-When contributing to Blend.CSS, please adhere to the following coding guidelines:
+When contributing to Elementus UI, please adhere to the following coding guidelines:
 
 - Follow the existing code style and formatting used in the framework.
 - Use meaningful variable and class names to enhance code readability.
@@ -43,5 +43,5 @@ When contributing to Blend.CSS, please adhere to the following coding guidelines
 
 ## Reporting Issues
 
-If you encounter any bugs, issues, or have suggestions for improvements, please [open an issue](https://github.com/Farhandotshaikh/Blend/issues) on GitHub. Provide a clear description of the problem or enhancement request, along with any relevant details and steps to reproduce.
+If you encounter any bugs, issues, or have suggestions for improvements, please [open an issue](https://github.com/Farhandotshaikh/ElementusUI/issues) on GitHub. Provide a clear description of the problem or enhancement request, along with any relevant details and steps to reproduce.
 
