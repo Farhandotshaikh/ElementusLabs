@@ -36,7 +36,7 @@ For detailed usage instructions, examples, and customization options, please ref
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to Blend.CSS, please check out our [Contribution Guidelines](CONTRIBUTING.md) for more information.
+We welcome contributions from the community! If you'd like to contribute to Elementus, please check out our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
